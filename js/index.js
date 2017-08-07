@@ -1,4 +1,4 @@
-//tons of useless trash here still needs to be fixed
+//tons of useless trash here; still needs to be fixed
 
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')
