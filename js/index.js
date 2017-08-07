@@ -1,3 +1,5 @@
+//tons of useless trash here still needs to be fixed
+
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')
 }
@@ -264,9 +266,6 @@ function($) {
 }(jQuery);
 
 
-function($) {
-  'use strict';
-
 
 
   var Carousel = function(element, options) {
@@ -493,11 +492,9 @@ function($) {
     })
   })
 
-}(jQuery);
 
 
-function($) {
-  'use strict';
+
 
   
 
@@ -693,11 +690,8 @@ function($) {
     Plugin.call($target, option)
   })
 
-}(jQuery);
 
 
-function($) {
-  'use strict';
 
 
 
@@ -846,7 +840,7 @@ function($) {
     .on('keydown.bs.dropdown.data-api', toggle, Dropdown.prototype.keydown)
     .on('keydown.bs.dropdown.data-api', '.dropdown-menu', Dropdown.prototype.keydown)
 
-}(jQuery);
+
 
 
 
